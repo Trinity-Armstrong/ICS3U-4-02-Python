@@ -18,6 +18,7 @@ def main():
 
     # Process
     while integer > counter:
+        print("{0}".format(counter))
         counter += 1
         factorial = factorial*counter
 
